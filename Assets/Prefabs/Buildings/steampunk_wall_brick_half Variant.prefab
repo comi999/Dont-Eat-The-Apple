@@ -1,0 +1,178 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &1222082599177024209
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 4856243843891283808}
+    m_Modifications:
+    - target: {fileID: 100000, guid: 0d7efbcaf70af4b8ebac09b1bdcb0a1c, type: 3}
+      propertyPath: m_Name
+      value: steampunk_wall_brick_half (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0d7efbcaf70af4b8ebac09b1bdcb0a1c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0d7efbcaf70af4b8ebac09b1bdcb0a1c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0d7efbcaf70af4b8ebac09b1bdcb0a1c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0d7efbcaf70af4b8ebac09b1bdcb0a1c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0d7efbcaf70af4b8ebac09b1bdcb0a1c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0d7efbcaf70af4b8ebac09b1bdcb0a1c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0d7efbcaf70af4b8ebac09b1bdcb0a1c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0d7efbcaf70af4b8ebac09b1bdcb0a1c, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0d7efbcaf70af4b8ebac09b1bdcb0a1c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0d7efbcaf70af4b8ebac09b1bdcb0a1c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0d7efbcaf70af4b8ebac09b1bdcb0a1c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0d7efbcaf70af4b8ebac09b1bdcb0a1c, type: 3}
+--- !u!1001 &4856243843891682784
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 100000, guid: 0d7efbcaf70af4b8ebac09b1bdcb0a1c, type: 3}
+      propertyPath: m_Name
+      value: steampunk_wall_brick_half Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0d7efbcaf70af4b8ebac09b1bdcb0a1c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0d7efbcaf70af4b8ebac09b1bdcb0a1c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0d7efbcaf70af4b8ebac09b1bdcb0a1c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0d7efbcaf70af4b8ebac09b1bdcb0a1c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0d7efbcaf70af4b8ebac09b1bdcb0a1c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0d7efbcaf70af4b8ebac09b1bdcb0a1c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0d7efbcaf70af4b8ebac09b1bdcb0a1c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0d7efbcaf70af4b8ebac09b1bdcb0a1c, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0d7efbcaf70af4b8ebac09b1bdcb0a1c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0d7efbcaf70af4b8ebac09b1bdcb0a1c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0d7efbcaf70af4b8ebac09b1bdcb0a1c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0d7efbcaf70af4b8ebac09b1bdcb0a1c, type: 3}
+--- !u!4 &4856243843891283808 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 0d7efbcaf70af4b8ebac09b1bdcb0a1c, type: 3}
+  m_PrefabInstance: {fileID: 4856243843891682784}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5703711511536723401
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 4856243843891283808}
+    m_Modifications:
+    - target: {fileID: 100000, guid: 819e9c05580c44490b5bc1ebff5d3f76, type: 3}
+      propertyPath: m_Name
+      value: greek_wall_column_1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 819e9c05580c44490b5bc1ebff5d3f76, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 819e9c05580c44490b5bc1ebff5d3f76, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.0112501085
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 819e9c05580c44490b5bc1ebff5d3f76, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 819e9c05580c44490b5bc1ebff5d3f76, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 819e9c05580c44490b5bc1ebff5d3f76, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 819e9c05580c44490b5bc1ebff5d3f76, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 819e9c05580c44490b5bc1ebff5d3f76, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 819e9c05580c44490b5bc1ebff5d3f76, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 819e9c05580c44490b5bc1ebff5d3f76, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 819e9c05580c44490b5bc1ebff5d3f76, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 819e9c05580c44490b5bc1ebff5d3f76, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 819e9c05580c44490b5bc1ebff5d3f76, type: 3}
