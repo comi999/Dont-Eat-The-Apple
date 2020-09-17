@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1846600999131274242}
   - component: {fileID: -4554146523702650967}
-  - component: {fileID: -3829542867062639435}
+  - component: {fileID: 4438098345839830862}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -51,7 +51,7 @@ CharacterController:
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &-3829542867062639435
+--- !u!114 &4438098345839830862
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -60,10 +60,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 1846600999131274248}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9e3218209ff986543baa3a3c7bfe6706, type: 3}
+  m_Script: {fileID: 11500000, guid: 56fc0278e97b67141bb912d3960a688e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  movementSpeed: 0.1
+  playerName: Player
+  playerMoney: 1000
+  ownsWagon: 0
+  mouseSensitivity: 10
+  moveSpeed: 0
+  jumpForce: 0
 --- !u!1 &1846601000090407258
 GameObject:
   m_ObjectHideFlags: 0
@@ -75,7 +80,6 @@ GameObject:
   - component: {fileID: 1846601000090407263}
   - component: {fileID: 1846601000090407256}
   - component: {fileID: 1846601000090407257}
-  - component: {fileID: 1846601000090407262}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -106,8 +110,8 @@ Camera:
   m_GameObject: {fileID: 1846601000090407258}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_ClearFlags: 2
+  m_BackGroundColor: {r: 0.495283, g: 0.77093214, b: 1, a: 1}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -129,7 +133,7 @@ Camera:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_RenderingPath: -1
+  m_RenderingPath: 3
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0
   m_TargetEye: 3
@@ -148,16 +152,3 @@ AudioListener:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1846601000090407258}
   m_Enabled: 1
---- !u!114 &1846601000090407262
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1846601000090407258}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b70d7b6e2ff5cab4c845ebf7047253f3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mouseSensitivity: 10

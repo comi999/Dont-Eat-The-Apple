@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class SceneTransition : MonoBehaviour
+public class SceneTransition : Singleton<SceneTransition>
 {
     [SerializeField] UnityEngine.UI.Image fader;
     public float transitionTime = 2.0f;
@@ -12,7 +12,6 @@ public class SceneTransition : MonoBehaviour
     private float progress = 0.0f;
     private string scene;
 
-    // Update is called once per frame
     void Update()
     {
         if (fade)
